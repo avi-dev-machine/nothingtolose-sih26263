@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: apaarsetu-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./apaarsetu.db
+      - SECRET_KEY=apaarsetu-dev-secret-key-32-chars-long-secure-random
+      - HMAC_SALT_KEY=apaarsetu-hmac-salt-key-secure-2026
+      - ENVIRONMENT=production
+    volumes:
+      - backend-data:/app
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: apaarsetu-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-data:

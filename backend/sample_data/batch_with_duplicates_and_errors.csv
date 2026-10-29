@@ -1,0 +1,7 @@
+apaar_id,institutional_student_id,full_name,program_code,admission_date,admission_category,is_supernumerary,supernumerary_category,dob,gender
+,EIT-CSE-26-301,Missing APAAR Candidate,CSE-BTECH,2026-08-14,REGULAR,FALSE,,2005-02-10,Male
+9825123,EIT-CSE-26-302,Malformed APAAR Candidate,CSE-BTECH,2026-08-14,REGULAR,FALSE,,2005-03-15,Female
+982599990001,EIT-CSE-26-303,Original Twin Identity,CSE-BTECH,2026-08-15,REGULAR,FALSE,,2005-06-20,Male
+982599990001,EIT-CSE-26-304,Duplicate Twin Identity,CSE-BTECH,2026-08-15,REGULAR,FALSE,,2005-06-20,Male
+982500010010,EIT-CSE-26-305,Unregistered Program Candidate,AERO-BTECH,2026-08-16,REGULAR,FALSE,,2005-08-25,Female
+982500010011,EIT-CSE-26-306,Supernumerary Incomplete Candidate,CSE-BTECH,2026-08-16,SUPERNUMERARY,TRUE,,2005-12-14,Male

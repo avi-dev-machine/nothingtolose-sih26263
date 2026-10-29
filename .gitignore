@@ -1,0 +1,26 @@
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.next/*
+frontend/out/
+
+# Python
+__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite Database
+backend/*.db
+backend/*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

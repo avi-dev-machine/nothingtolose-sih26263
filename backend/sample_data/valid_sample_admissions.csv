@@ -1,0 +1,6 @@
+apaar_id,institutional_student_id,full_name,program_code,admission_date,admission_category,is_supernumerary,supernumerary_category,dob,gender
+982500010001,EIT-CSE-26-201,Priya Sengupta,CSE-BTECH,2026-08-14,REGULAR,FALSE,,2005-03-12,Female
+982500010002,EIT-CSE-26-202,Amitabh Roy,CSE-BTECH,2026-08-14,REGULAR,FALSE,,2005-07-21,Male
+982500010003,EIT-CSE-26-203,Debarati Das,CSE-BTECH,2026-08-15,REGULAR,FALSE,,2005-09-04,Female
+982500010004,EIT-CSE-26-204,Saurav Ganguly,CSE-BTECH,2026-08-15,REGULAR,FALSE,,2005-01-18,Male
+982500010005,EIT-CSE-26-205,Ananya Sen,CSE-BTECH,2026-08-16,SUPERNUMERARY,TRUE,TFW,2005-11-29,Female
